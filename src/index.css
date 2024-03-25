@@ -1,12 +1,18 @@
 
-
+body{
+    background-color: rgb(247, 249, 252);
+}
 
 .nav-item{
     margin-top: 25px;
+    }
+nav{
+    
+    background-color: #fff;
 }
 li{
     margin: 16px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1.5px;
     padding: 10px;
     list-style: none;
@@ -16,22 +22,43 @@ li a{
     text-decoration: none;
     color: rgb(32, 189, 103);
 }
-a:hover,a:active{
-    padding-bottom: 10px;
-    border-bottom:3px solid rgb(54, 167, 88);
-    border-radius: 6px;
-}
+a:hover,a:focus{
 
-.container{
-    margin-top: 50px;
-    padding: 40px;
-    border-radius: 16px;
+    border-radius: 1px;
+    cursor: pointer;
+    color: rgb(38, 226, 110);
+    border-bottom:3px solid rgb(102, 160, 124);
+    
 }
-.category{
+a:focus{
+    padding-bottom: 16px;
+    transition: 1s;
+    border-bottom:3px solid rgb(38, 226, 110);
+    text-shadow: 0 0  20px rgb(196, 167, 167);
+}
+.container{
+    margin-top: 50px;   
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #fff;
+}
+.category,.card-footer{
     font-weight: bold;
     color: rgb(97, 106, 114);
 }
 
 .card{
-    width: 300px;
+    width: 350px;
+    height: 500px;
+}
+.card-img-top{
+    height:200px ;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgb(38, 226, 110);
+  z-index: 10;
+}
+p{
+    padding-left: 100px;
 }

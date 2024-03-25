@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Navigation from './assets/Navigation';
-
+import Home from './assets/Home';
 import Fsd from './assets/fsd';
 import Datascience from './assets/datascience';
 import Cyber_security from './assets/cyber_security';
@@ -17,6 +17,14 @@ import './index.css'
 
 const data=[
   {
+    id:10,
+    image:'https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4-768x433.png',
+    title:'Roles and Responsibilities of a Data Scientist',
+    duration:'5 Min Read',
+    category:'DATA SCIENCE',
+    date:'Oct 20, 2023'
+  },
+  {
     id:1,
     image:'https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-768x432.png',
     title:'Cybersecurity Vs Ethical Hacking: Top 10 Differences',
@@ -24,6 +32,14 @@ const data=[
     category:'CYBER SECURITY',
     date:'Oct 04 2023'
 
+  },
+   {
+    id:15,
+    image:'https://www.guvi.in/blog/wp-content/uploads/2023/04/image-18.png',
+    title:'Crack the TCS IPA Exam: Top Questions and Exclusive Tips for Success!',
+    duration:'7 Min Read',
+    category:'CAREER',
+    date:'Oct 06, 2023'
   },
   {
     id:2,
@@ -33,16 +49,15 @@ const data=[
     category:'CYBER SECURITY',
     date:'Dec 04, 2023'
 
+  },{
+    id:13,
+    image:'https://www.guvi.in/blog/wp-content/uploads/2021/10/The-Good-Life-GoDaddy-Store-Image-10-600x250.jpg',
+    title:'8 Top Full Stack Web Developer Coding Projects For You!',
+    duration:'8 Min Read',
+    category:'FULL STACK DEVELOPMENT',
+    date:'Mar 25, 2024'
   },
-  {
-    id:3,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-768x432.png',
-    title:'8 Different Types of Cybersecurity and Threats Involved',
-    duration:'4 Min Read',
-    category:'CYBER SECURITY',
-    date:'Sep 08, 2023'
-
-  },
+  
   {
     id:4,
     image:'https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif',
@@ -76,6 +91,14 @@ const data=[
     duration:'7 Min Read',
     category:'DATA SCIENCE',
     date:'Oct 21, 2023'
+  },{
+    id:3,
+    image:'https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-768x432.png',
+    title:'8 Different Types of Cybersecurity and Threats Involved',
+    duration:'4 Min Read',
+    category:'CYBER SECURITY',
+    date:'Sep 08, 2023'
+
   },
   {
     id:8,
@@ -93,14 +116,7 @@ const data=[
     category:'CAREER',
     date:'Sep 08, 2023'
   },
-  {
-    id:10,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4-768x433.png',
-    title:'Roles and Responsibilities of a Data Scientist',
-    duration:'5 Min Read',
-    category:'DATA SCIENCE',
-    date:'Oct 20, 2023'
-  },
+  
   {
     id:11,
     image:'https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html-768x513.jpg',
@@ -117,14 +133,7 @@ const data=[
     category:'FULL STACK DEVELOPMENT',
     date:'Dec 14, 2023'
   },
-  {
-    id:13,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2021/10/The-Good-Life-GoDaddy-Store-Image-10-600x250.jpg',
-    title:'8 Top Full Stack Web Developer Coding Projects For You!',
-    duration:'8 Min Read',
-    category:'FULL STACK DEVELOPMENT',
-    date:'Mar 25, 2024'
-  },
+  
   {
     id:14,
     image:'https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Best-Full-Stack-Development-Online-Courses-768x480.webp',
@@ -133,14 +142,7 @@ const data=[
     category:'FULL STACK DEVELOPMENT',
     date:'Mar 25, 2024'
   },
-  {
-    id:15,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2023/04/image-18.png',
-    title:'Crack the TCS IPA Exam: Top Questions and Exclusive Tips for Success!',
-    duration:'7 Min Read',
-    category:'CAREER',
-    date:'Oct 06, 2023'
-  },
+ 
   {
     id:16,
     image:'https://www.guvi.in/blog/wp-content/uploads/2022/06/2.-HTML-Css-768x402.png',
@@ -161,10 +163,15 @@ const data=[
 ]
 
 const router=createBrowserRouter([
+  
     {
       path:'/',
       element:<Navigation />,
       children:[
+        {
+          path:'',
+          element:<Home />
+        },
         {
           path:'all',
           element:<All data={data}/>

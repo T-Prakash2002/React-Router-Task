@@ -2,15 +2,19 @@ import React from 'react'
 import Card from './Card'
 
 function Cyber_security({data}) {
+
+  const cyber_security=data.filter(i =>i.category === 'CYBER SECURITY');
+
   return (
-    <div>
+    <>
+    <h1 className='h1 text-center text-success mb-5'>CYBER SECURITY</h1>
       {
-        data.map(item=>{
+        cyber_security.map(item=>{
           return <Card key={item.id} item={item}/>
         })
 
       }
-    </div>
+    </>
   )
 }
 
