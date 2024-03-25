@@ -145,7 +145,7 @@ const data=[
  
   {
     id:16,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2022/06/2.-HTML-Css-768x402.png',
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Top-IT-Jobs-for-Commerce-Students.webp",
     title:'Top 20 HTML & CSS Interview Questions With Answers',
     duration:'6 Min Read',
     category:'CAREER',
