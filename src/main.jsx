@@ -18,7 +18,7 @@ import './index.css'
 const data=[
   {
     id:10,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4-768x433.png',
+    image: "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Top-High-Paying-Non-Coding-Jobs-in-Data-Science.webp",
     title:'Roles and Responsibilities of a Data Scientist',
     duration:'5 Min Read',
     category:'DATA SCIENCE',
@@ -26,7 +26,7 @@ const data=[
   },
   {
     id:1,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-768x432.png',
+   image: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
     title:'Cybersecurity Vs Ethical Hacking: Top 10 Differences',
     duration:'5 Min Read',
     category:'CYBER SECURITY',
@@ -35,7 +35,7 @@ const data=[
   },
    {
     id:15,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2023/04/image-18.png',
+    image: "https://www.guvi.in/blog/wp-content/uploads/2024/01/Feature-image-Top-Technologies-to-Learn-Jumpstart-a-Successful-Tech-Career.webp",
     title:'Crack the TCS IPA Exam: Top Questions and Exclusive Tips for Success!',
     duration:'7 Min Read',
     category:'CAREER',
@@ -51,7 +51,7 @@ const data=[
 
   },{
     id:13,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2021/10/The-Good-Life-GoDaddy-Store-Image-10-600x250.jpg',
+     image: "https://www.guvi.in/blog/wp-content/uploads/2023/11/top-ways-to-assess-soft-skills-in-full-stack-developers.webp",
     title:'8 Top Full Stack Web Developer Coding Projects For You!',
     duration:'8 Min Read',
     category:'FULL STACK DEVELOPMENT',
@@ -60,7 +60,7 @@ const data=[
   
   {
     id:4,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif',
+     image: "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
     title:'What is Cybersecurity? Importance and its uses & the growing challenges in 2023!',
     duration:'4 Min Read',
     category:'CYBER SECURITY',
@@ -78,7 +78,7 @@ const data=[
   },
   {
     id:6,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif',
+    image: "https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp",
     title:'Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?',
     duration:'4 Min Read',
     category:'CYBER SECURITY',
@@ -93,7 +93,7 @@ const data=[
     date:'Oct 21, 2023'
   },{
     id:3,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-768x432.png',
+    image: "https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp",
     title:'8 Different Types of Cybersecurity and Threats Involved',
     duration:'4 Min Read',
     category:'CYBER SECURITY',
@@ -110,7 +110,7 @@ const data=[
   },
   {
     id:9,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science-768x402.png',
+     image: "https://www.guvi.in/blog/wp-content/uploads/2023/11/Feature-image-Product-Based-Companies-for-Product-Managers-in-India.webp",
     title:'Can A Commerce Student Do Data Science?',
     duration:'3 Min Read',
     category:'CAREER',
@@ -119,7 +119,7 @@ const data=[
   
   {
     id:11,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html-768x513.jpg',
+    image:'https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Best-Full-Stack-Development-Online-Courses.webp',
     title:'Best Full-Stack Development Project Ideas in 2024',
     duration:'4 Min Read',
     category:'FULL STACK DEVELOPMENT',
@@ -127,7 +127,7 @@ const data=[
   },
   {
     id:12,
-    image:'https://www.guvi.in/blog/wp-content/uploads/2021/09/Full-Stack-Developer-course-syllabus.png',
+    image:"https://www.guvi.in/blog/wp-content/uploads/2024/01/feature_image-6.webp",
     title:'Hot Topics That You Need To Know In Full Stack Developer Syllabus | 2024 [UPDATED]',
     duration:'6 Min Read',
     category:'FULL STACK DEVELOPMENT',
