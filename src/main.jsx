@@ -12,7 +12,6 @@ import Datascience from './assets/datascience';
 import Cyber_security from './assets/cyber_security';
 import Career from './assets/career';
 import All from './assets/All';
-import './img'
 import './index.css'
 
 
@@ -34,7 +33,7 @@ const data=[
     date:'Oct 04 2023'
 
   },
-  {
+   {
     id:15,
     image:'https://www.guvi.in/blog/wp-content/uploads/2023/04/image-18.png',
     title:'Crack the TCS IPA Exam: Top Questions and Exclusive Tips for Success!',
@@ -128,7 +127,7 @@ const data=[
   },
   {
     id:12,
-    image:'https://github.com/T-Prakash2002/React-Router-Task/blob/b24825677a8fe143951c1e49de73e03b73b50d1b/src/img/Full-Stack-Developer-course-1.webp',
+    image:'https://www.guvi.in/blog/wp-content/uploads/2021/09/Full-Stack-Developer-course-syllabus.png',
     title:'Hot Topics That You Need To Know In Full Stack Developer Syllabus | 2024 [UPDATED]',
     duration:'6 Min Read',
     category:'FULL STACK DEVELOPMENT',
